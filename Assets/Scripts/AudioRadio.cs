@@ -7,11 +7,8 @@ public class AudioRadio : MonoBehaviour
     public AudioSource source;
     public AudioClip clip;
 
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            source.PlayOneShot(clip);
-        }
+        source.PlayOneShot(clip);
     }
 }
