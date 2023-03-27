@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RadioCollect : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int Radio;
+    public void Update()
     {
-        
+        if (Radio == 5)// change number if more or less radios 
+        {
+            //change "" for diffrenet scene 
+            SceneManager.LoadScene("River");
+        }
     }
-
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter(Collider col)
     {
-        
+        if (col.gameObject.tag == "radio")
+        {
+           
+            Debug.Log ("Works");
+            Radio = Radio + 1;
+            col.gameObject.SetActive(false);
+        }
     }
 }
