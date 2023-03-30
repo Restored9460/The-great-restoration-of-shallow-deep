@@ -8,7 +8,7 @@ public class RadioCollect : MonoBehaviour
     public int Radio;
     public void Update()
     {
-        if (Radio == 5)// change number if more or less radios 
+        if (Radio == 4)// change number if more or less radios 
         {
             //change "" for diffrenet scene 
             SceneManager.LoadScene("River");
