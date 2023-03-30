@@ -12,12 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: c807bf649d48a1048872895cc46d090d
   - enabled: 1
-    path: Assets/Scenes/River.unity
-    guid: 0f0255d0a185e6f4ba4b4f675389bcf9
-  - enabled: 1
     path: Assets/Scenes/Woods - Final.unity
     guid: f5622f28ea1792d438a3808305845655
   - enabled: 1
+    path: Assets/Scenes/River.unity
+    guid: 0f0255d0a185e6f4ba4b4f675389bcf9
+  - enabled: 1
     path: Assets/Scenes/Beach.unity
     guid: 391a06c4b5e98864bb7ccbe77d3bf60f
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 062aa5897c5f7d548ae501245afcd343
   m_configObjects: {}
