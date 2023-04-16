@@ -10,7 +10,7 @@ public class RadioCollectBeach : MonoBehaviour
     {
         if (Radio == 5)// change number if more or less radios 
         {
-           
+            Application.Quit();
         }
     }
     public void OnTriggerEnter(Collider col)
