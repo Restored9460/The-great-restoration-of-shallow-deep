@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class RadioCollectRiver : MonoBehaviour
+public class RadioCollectBeach : MonoBehaviour
 {
     public int Radio;
     public void Update()
