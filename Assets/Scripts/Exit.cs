@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
+    KeyCode Key = KeyCode.Escape;
     private void Update()
     {
-        if (Input.GetKeyDown("esc"))
+        if (Input.GetKey(KeyCode.Escape)) 
         {
             Application.Quit();
 
