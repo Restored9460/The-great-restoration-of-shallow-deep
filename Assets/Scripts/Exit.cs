@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
-    if (Input.GetKeyDown("Esc"))
-        {        
-        Application.Quit();   
-      
+    private void Update()
+    {
+        if (Input.GetKeyDown("esc"))
+        {
+            Application.Quit();
+
         }
+    }
+    
 }
