@@ -1066,6 +1066,7 @@ GameObject:
   - component: {fileID: 79153751}
   - component: {fileID: 79153753}
   - component: {fileID: 79153752}
+  - component: {fileID: 79153754}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1169,7 +1170,7 @@ AudioSource:
   m_GameObject: {fileID: 79153746}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: eb8e7c6c5847b8440b6b4ba58d3c0e9f, type: 2}
   m_audioClip: {fileID: 8300000, guid: ecaa50a5a84f80f4c981707c68e696d8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -1271,6 +1272,18 @@ MonoBehaviour:
   walkingSound: {fileID: 79153752}
   walk1: {fileID: 8300000, guid: ecaa50a5a84f80f4c981707c68e696d8, type: 3}
   walk2: {fileID: 8300000, guid: 90b5522c3d335ea4eab8d399017bc90d, type: 3}
+--- !u!114 &79153754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79153746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c2f0a47ed926247ad846252b00beca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &87532989 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4255731109135062, guid: 4f33db2b61d8c4c509be4ef4d9369b60, type: 3}
@@ -1653,7 +1666,7 @@ AudioSource:
   m_GameObject: {fileID: 115002297}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: eb8e7c6c5847b8440b6b4ba58d3c0e9f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 59b2fc7898acb4e4a9f306db4ac803f5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -9804,7 +9817,7 @@ AudioSource:
   m_GameObject: {fileID: 942893292}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: eb8e7c6c5847b8440b6b4ba58d3c0e9f, type: 2}
   m_audioClip: {fileID: 8300000, guid: fbf5e061591d06b4fbc50051cc817dd0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.136
