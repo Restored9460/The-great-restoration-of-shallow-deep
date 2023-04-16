@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.3506928, g: 0.37160337, b: 0.38542408, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -787,6 +787,7 @@ GameObject:
   - component: {fileID: 125190290}
   - component: {fileID: 125190289}
   - component: {fileID: 125190292}
+  - component: {fileID: 125190293}
   m_Layer: 0
   m_Name: Radio
   m_TagString: Radio
@@ -817,7 +818,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125190286}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.230648, y: 8.420577, z: 1.6489685}
@@ -886,6 +887,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1743875306}
   clip: {fileID: 8300000, guid: 0de1449c0514a6f49af8cfb1d63fea1d, type: 3}
+--- !u!114 &125190293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125190286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638ecd1a2d208da48bb59d85b12d12f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &129136599 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5977549091374805509, guid: dd1832de68cba8f48960216dac3c4f3e, type: 3}
@@ -1505,6 +1518,7 @@ GameObject:
   - component: {fileID: 484455529}
   - component: {fileID: 484455528}
   - component: {fileID: 484455531}
+  - component: {fileID: 484455532}
   m_Layer: 0
   m_Name: Radio
   m_TagString: Radio
@@ -1535,7 +1549,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484455525}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.230648, y: 8.420577, z: 1.6489685}
@@ -1604,6 +1618,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1743875306}
   clip: {fileID: 8300000, guid: 9831d38df6c8d8741abefa6438e05f56, type: 3}
+--- !u!114 &484455532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484455525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638ecd1a2d208da48bb59d85b12d12f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &520806055
 GameObject:
   m_ObjectHideFlags: 0
@@ -7636,6 +7662,7 @@ GameObject:
   - component: {fileID: 690447363}
   - component: {fileID: 690447362}
   - component: {fileID: 690447365}
+  - component: {fileID: 690447366}
   m_Layer: 0
   m_Name: Radio (1)
   m_TagString: Radio
@@ -7666,7 +7693,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690447359}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.230648, y: 8.420577, z: 1.6489685}
@@ -7735,6 +7762,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1743875306}
   clip: {fileID: 8300000, guid: a16a0f93422cb7e4e95f323b61da31b2, type: 3}
+--- !u!114 &690447366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690447359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638ecd1a2d208da48bb59d85b12d12f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &693481038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9436,6 +9475,7 @@ GameObject:
   - component: {fileID: 1377665596}
   - component: {fileID: 1377665595}
   - component: {fileID: 1377665598}
+  - component: {fileID: 1377665599}
   m_Layer: 0
   m_Name: Radio (2)
   m_TagString: Radio
@@ -9466,7 +9506,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377665592}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.230648, y: 8.420577, z: 1.6489685}
@@ -9535,6 +9575,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1743875306}
   clip: {fileID: 8300000, guid: bf5ff53ddfe1ad94ca16cb9062ab34f6, type: 3}
+--- !u!114 &1377665599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377665592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638ecd1a2d208da48bb59d85b12d12f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1378585104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10021,6 +10073,7 @@ GameObject:
   - component: {fileID: 1484013394}
   - component: {fileID: 1484013393}
   - component: {fileID: 1484013396}
+  - component: {fileID: 1484013397}
   m_Layer: 0
   m_Name: Radio (3)
   m_TagString: Radio
@@ -10051,7 +10104,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484013390}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.230648, y: 8.420577, z: 1.6489685}
@@ -10120,6 +10173,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1743875306}
   clip: {fileID: 8300000, guid: bf5ff53ddfe1ad94ca16cb9062ab34f6, type: 3}
+--- !u!114 &1484013397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484013390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638ecd1a2d208da48bb59d85b12d12f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1494506158
 GameObject:
   m_ObjectHideFlags: 0
