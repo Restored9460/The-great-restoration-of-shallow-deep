@@ -15,6 +15,7 @@ public class Settings : MonoBehaviour
     {
         Application.Quit();
     }
+  
     public AudioMixer audioMixer;
     public void SetVolume(float volume)
     {
