@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3506928, g: 0.37160337, b: 0.38542408, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 125190293}
   m_Layer: 0
   m_Name: Radio
-  m_TagString: Radio
+  m_TagString: radio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1521,7 +1521,7 @@ GameObject:
   - component: {fileID: 484455532}
   m_Layer: 0
   m_Name: Radio
-  m_TagString: Radio
+  m_TagString: radio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7665,7 +7665,7 @@ GameObject:
   - component: {fileID: 690447366}
   m_Layer: 0
   m_Name: Radio (1)
-  m_TagString: Radio
+  m_TagString: radio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9478,7 +9478,7 @@ GameObject:
   - component: {fileID: 1377665599}
   m_Layer: 0
   m_Name: Radio (2)
-  m_TagString: Radio
+  m_TagString: radio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10076,7 +10076,7 @@ GameObject:
   - component: {fileID: 1484013397}
   m_Layer: 0
   m_Name: Radio (3)
-  m_TagString: Radio
+  m_TagString: radio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
